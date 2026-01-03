@@ -15,7 +15,7 @@ While other methods prioritize work or structure requests, FAST governs how we c
 
 ## Why FAST?
 
-Most organizations suffer from Meeting Inflation. FAST acts as a "defensive firewall" for your calendar.
+Organizations suffer from Meeting Inflation. FAST acts as a "defensive firewall" for your calendar.
 
 | Approach | Statement | Impact |
 | :--- | :--- | :--- |
@@ -33,34 +33,28 @@ Most organizations suffer from Meeting Inflation. FAST acts as a "defensive fire
 
 To schedule a meeting, you must satisfy the FAST criteria. If these criteria are not met, the meeting should be declined or canceled.
 
-### F - Filter (The Who)
-Invite only essential decision-makers. Apply the Responsibility Model:
-*   **Contributors:** Those doing the work.
-*   **Deciders:** Those approving the work.
+| Attribute | Question | Focus |
+| :--- | :--- | :--- |
+| **F**ilter | *Who is essential?* | Decision-makers (Contributors / Deciders) only. No FYIs. |
+| **A**genda | *What is the decision?* | The Pre-read & Silent Start. |
+| **S**horten | *When do we finish?* | 15 Minutes (Parkinson’s Law). |
+| **T**ake Action | *What is the output?* | The Commit Log (Decision / Owner / Date).
 
-Observers and "For Your Information" (FYI) attendees are strictly prohibited. If someone needs to "know," send them the notes later.
+## Operating Logic
 
-### A - Agenda (The What)
-No Agenda, No Meeting. FAST requires a Pre-read Document.
-*   The Agenda is not a list of topics; it is a list of decisions to be made.
-*   The Pre-read must be sent 24 hours in advance. If the Pre-read is not sent, the meeting is automatically canceled.
-*   **Silent Start Protocol:** If the Pre-read was not completed by all attendees, the first 30% of the meeting duration is strictly allocated to Silent Reading. Discussion begins after this period.
+FAST relies on specific mechanisms to enforce its philosophy:
 
-### S - Shorten (The When)
-Default to 15 minutes. Parkinson’s Law states that work expands to fill the time available.
-*   **Standard:** 15 Minutes (Decision).
-*   **Extended:** 30 Minutes (Conflict Resolution).
-*   **Exception:** 45+ Minutes (Reserved for Workshops and Incidents).
+1.  **Silent Start Protocol:** If the Pre-read is not completed by all attendees, the first 30% of the meeting is allocated to Silent Reading.
+2.  **Responsibility Model:** "Contributors" do the work; "Deciders" approve it. Observers are banned.
+3.  **Duration Standards:**
+    *   **Standard:** 15 Minutes (Decision).
+    *   **Extended:** 30 Minutes (Conflict Resolution).
+    *   **Workshops:** 45+ Minutes (Creation only, not discussion).
+4.  **Commit Log:** Every meeting must end with a recorded decision, owner, and date.
 
-### T - Take Action (The Output)
-Ending with "Next Steps" is not enough. Every meeting must generate a Commit Log artifact immediately upon closing:
-*   **Decision Made:** (Yes/No)
-*   **Owner:** (Who executes?)
-*   **Date:** (When is it live?)
+## Data Structure (The Invite Object)
 
-## Mechanics: The FAST Ticket
-
-The FAST Method uses the **FAST Ticket**. This block must be included in the calendar invite description. If the invite does not contain a filled Ticket, the invitee is obligated to decline.
+The FAST Method treats the calendar invite as a structured data object. This block must be included in the invite description. If the invite does not contain this valid structure, the invitee is obligated to decline.
 
 > **Note:** "Cost" and financial figures should be calculated using your local currency.
 
@@ -85,11 +79,11 @@ FAST does not ban discussion; it moves it.
 **Discussion occurs in the pre-read artifacts, including documents and discussion threads.**
 
 1.  **Async Discussion:** The 24-hour window before the meeting is for "Written Discussion." Attendees should comment, question, and challenge the proposal *before* the synchronous time begins.
-2.  **Synchronous Resolution:** The meeting itself is for **Conflict Resolution**. If a point is debated in the tickets and resolved, it does not need airtime. We only speak about the "Sticky Issues" where the written debate ended in a deadlock.
+2.  **Synchronous Resolution:** The meeting itself is for **Conflict Resolution**. If a point is debated in the comments and resolved, it does not need airtime. We only speak about the "Sticky Issues" where the written debate ended in a deadlock.
 
 ## Implementation
 
-The FAST Method is tool-agnostic. It applies to any calendar or communication platform. The key is the **FAST Ticket**.
+The FAST Method is tool-agnostic. It applies to any calendar or communication platform. The key is the **FAST Data Structure**.
 
 ### Example 1: Software (Architecture Decision)
 
