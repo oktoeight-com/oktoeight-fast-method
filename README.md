@@ -31,7 +31,7 @@ Organizations suffer from Meeting Inflation. FAST acts as a "defensive firewall"
 
 ## The FAST Framework
 
-To schedule a meeting, you must satisfy the FAST criteria. If these criteria are not met, the meeting should be declined or canceled.
+FAST stands for **F**ilter, **A**genda, **S**horten, and **T**ake Action. To schedule a meeting, you must satisfy the FAST criteria. If these criteria are not met, the meeting should be declined or canceled.
 
 | Attribute | Question | Focus |
 | :--- | :--- | :--- |
