@@ -9,9 +9,8 @@ We believe **"Meetings are the Last Resort."**
 While other methods prioritize work or structure requests, FAST governs how we consume collective time. It is built on four Immutable Tenets:
 
 1.  **Decisions over Discussion:** If a decision isn't being made, the meeting is a failure. Informational updates belong in writing.
-2.  **Essential over Inclusive:** Inclusion is for social events; meetings are for execution. "Invite just in case" is a tax on organizational focus.
-3.  **Written-First over Real-Time:** Synchronous meetings are a failure of preparation. If the context can be read, it shouldn't be spoken.
-4.  **Calculated over Casual:** Time is a finite asset. A meeting is a financial transaction and an expensive withdrawal from the company's focus bank.
+2.  **Written-First over Real-Time:** Synchronous meetings are a failure of preparation. If the context can be read, it shouldn't be spoken.
+3.  **Calculated over Casual:** Time is a finite asset. A meeting is a financial transaction and an expensive withdrawal from the company's focus bank.
 
 ## Why FAST?
 
@@ -28,6 +27,7 @@ Organizations suffer from Meeting Inflation. FAST acts as a "defensive firewall"
 | :--- | :--- | :--- | :--- |
 | **Silent Meetings** | Deep Reading | Ignores financial cost of the meeting itself. | Explicit **Cost** metric on invite. |
 | **Lean Coffee** | Democratic Agenda | Agenda created *during* meeting (too late). | Agenda (Pre-read) required *before* invite. |
+| **Status Update** | Information Sharing | Wastes time on non-decisions. | **Written-First** updates; meetings for decisions only. |
 
 ## The FAST Framework
 
@@ -35,26 +35,48 @@ FAST stands for **F**ilter, **A**genda, **S**horten, and **T**ake Action. To sch
 
 | Attribute | Question | Focus |
 | :--- | :--- | :--- |
-| **F**ilter | *Who is essential?* | Decision-makers (Contributors / Deciders) only. No FYIs. |
-| **A**genda | *What is the decision?* | The Pre-read & Silent Start. |
-| **S**horten | *When do we finish?* | 15 Minutes (Parkinson’s Law). |
-| **T**ake Action | *What is the output?* | The Commit Log (Decision / Owner / Date).
+| **F**ilter | *Who is essential?* | Contributors, deciders, essentials. |
+| **A**genda | *What is the decision?* | Pre-read, silent-start, decision. |
+| **S**horten | *When do we finish?* | Parkinson’s Law, duration, focus. |
+| **T**ake Action | *What is the output?* | Commit-log, owner, date. |
 
 ## Operating Logic
 
 FAST relies on specific mechanisms to enforce its philosophy:
 
 1.  **Silent Start Protocol:** If the Pre-read is not completed by all attendees, the first 30% of the meeting is allocated to Silent Reading.
-2.  **Responsibility Model:** "Contributors" do the work; "Deciders" approve it. Observers are banned.
+2.  **Responsibility Model:**
+
+| Role | Responsibility |
+| :--- | :--- |
+| **Contributor** | Preparation, execution, and follow-up. |
+| **Decider** | Review, conflict resolution, and final vote. |
+
 3.  **Duration Standards:**
     *   **Standard:** 15 Minutes (Decision).
     *   **Extended:** 30 Minutes (Conflict Resolution).
     *   **Workshops:** 45+ Minutes (Creation only, not discussion).
 4.  **Commit Log:** Every meeting must end with a recorded decision, owner, and date.
 
-## Data Structure (The Invite Object)
+### The FAST Integrity Check
+Before hitting "Send Invite," perform the FAST check:
 
-The FAST Method treats the calendar invite as a structured data object. This block must be included in the invite description. If the invite does not contain this valid structure, the invitee is obligated to decline.
+* **If the Cost row is empty:** You are spending company money without looking at the price tag.
+* **If the Pre-read is missing:** You are asking people to "watch you think" rather than reviewing your work.
+* **If the Goal is "To discuss":** Cancel the meeting. "Discussing" is not a goal; the goal is "To Decide."
+
+### Where is the Discussion?
+
+FAST does not ban discussion; it moves it.
+
+**Discussion occurs in the pre-read artifacts, including documents and discussion threads.**
+
+1.  **Async Discussion:** The 24-hour window before the meeting is for "Written Discussion." Attendees should comment, question, and challenge the proposal *before* the synchronous time begins.
+2.  **Synchronous Resolution:** The meeting itself is for **Conflict Resolution**. If a point is debated in the comments and resolved, it does not need airtime. We only speak about the "Sticky Issues" where the written debate ended in a deadlock.
+
+## Data Structure (The FAST Data Object)
+
+The FAST Method relies on **The FAST Data Object (Invite Object)**. This block must be included in the invite description. If the invite does not contain this valid structure, the invitee is obligated to decline.
 
 > **Note:** "Cost" and financial figures should be calculated using your local currency.
 
@@ -64,22 +86,6 @@ The FAST Method treats the calendar invite as a structured data object. This blo
 | **Cost** | Currency | (Duration/60) * ∑(Attendee Rates) |
 | **Pre-read** | Link / Attachment | Where is the context? (Must be read before joining) |
 | **Output** | Actionable Object | What artifact will exist after this call that didn't exist before? |
-
-### The Integrity Check
-
-Before hitting "Send Invite," perform the FAST check:
-*   **Is the Cost row empty?** You are spending company money without looking at the price tag.
-*   **Is the Pre-read missing?** You are asking people to "watch you think" rather than reviewing your work.
-*   **Is the Goal "To discuss..."?** Cancel the meeting. "Discussing" is not a goal; it is a method. The goal is "To Decide."
-
-## Where is the Discussion?
-
-FAST does not ban discussion; it moves it.
-
-**Discussion occurs in the pre-read artifacts, including documents and discussion threads.**
-
-1.  **Async Discussion:** The 24-hour window before the meeting is for "Written Discussion." Attendees should comment, question, and challenge the proposal *before* the synchronous time begins.
-2.  **Synchronous Resolution:** The meeting itself is for **Conflict Resolution**. If a point is debated in the comments and resolved, it does not need airtime. We only speak about the "Sticky Issues" where the written debate ended in a deadlock.
 
 ## Implementation
 
@@ -95,7 +101,7 @@ The FAST Method is tool-agnostic. It applies to any calendar or communication pl
 | :--- | :--- |
 | **Goal** | Decide: Migrate to RDS (Yes/No). |
 | **Cost** | 450 (15min * 6 Engineers @ 300/hr blended) |
-| **Pre-read** | RFC-102: Database Migration Strategy (12 mins read) |
+| **Pre-read** | Request for Comments (RFC)-102: Database Migration Strategy (12 mins read) |
 | **Output** | Approved Migration Plan or Rejection with comments in RFC-102. |
 
 ### Example 2: Hardware (Capital Expenditure)
@@ -106,7 +112,7 @@ The FAST Method is tool-agnostic. It applies to any calendar or communication pl
 
 | Attribute | Requirement |
 | :--- | :--- |
-| **Goal** | Approve Purchase Order #9921 for Haas VF-2 (150,000). |
+| **Goal** | Approve Purchase Order (PO) #9921 for Haas VF-2 (150,000). |
 | **Cost** | 200 (15min * 1 Project Manager + 4 Senior Engineers) |
 | **Pre-read** | CapEx Justification: Line 4 Replacement (PDF, 4 pages) |
 | **Output** | Signed PO or specific questions for vendor. |
@@ -143,9 +149,11 @@ The FAST Method is tool-agnostic. It applies to any calendar or communication pl
 
 | Abbreviation | Definition |
 |--------------|------------|
-| FAST | Filter, Agenda, Shorten, Take Action |
-| FYI | For Your Information |
-| RDS | Relational Database Service |
+| **FAST** | Filter, Agenda, Shorten, Take Action |
+| **FYI** | For Your Information |
+| **PO** | Purchase Order |
+| **RDS** | Relational Database Service |
+| **RFC** | Request for Comments |
 
 ## Contributing
 
