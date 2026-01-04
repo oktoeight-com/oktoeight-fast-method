@@ -6,10 +6,24 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 [Unreleased]
 
+## [0.2.0] - 2026-01-04
+
 ### Added
-- Define FAST acronym in README.
+- Responsibility Model table to Operating Logic.
+- "Status Update" comparison to the Alternatives table.
+- Abbreviations (PO, RFC) to the Abbreviations list.
+
+### Changed
+- Updated Copyright year to 2026 in LICENSE.
+- Updated CONTRIBUTING.md to align with Oktoeight standards and FAST specifics.
+- Refined Core Philosophy: Removed "Essential over Inclusive" tenet to align with the "Power of Three".
+- Simplified "Focus" descriptions in the Attribute Table to Key-Noun format.
+- Reorganized document structure: Moved "Integrity Check" and "Where is the Discussion?" sections.
+- Renamed "Data Structure" section to "The FAST Data Object".
+- Expanded acronyms in examples (RFC, PO) for clarity.
 
 ## [0.1.0] - 2026-01-03
+
 ### Added
 - Initial release of the FAST Method documentation.
 - Core Philosophy section defining meetings as the "Last Resort" and establishing the four Immutable Tenets.
