@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 [Unreleased]
 
+### Added
+- Guidance on separating social and operational meetings to Common Questions.
+- Expanded explanation of "Status Updates" pitfalls (zoning out, reporting to manager).
+
 ## [0.2.0] - 2026-01-04
 
 ### Added
