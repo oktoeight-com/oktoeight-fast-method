@@ -6,7 +6,7 @@ The FAST Method is a minimalist protocol for synchronous communication. It opera
 
 We believe **"Meetings are the Last Resort."**
 
-While other methods prioritize work or structure requests, FAST governs how we consume collective time. It is built on four Immutable Tenets:
+While other methods prioritize work or structure requests, FAST governs how we consume collective time. It is built on three Immutable Tenets:
 
 1.  **Decisions over Discussion:** If a decision isn't being made, the meeting is a failure. Informational updates belong in writing.
 2.  **Written-First over Real-Time:** Synchronous meetings are a failure of preparation. If the context can be read, it shouldn't be spoken.
@@ -18,8 +18,8 @@ Organizations suffer from Meeting Inflation. FAST acts as a "defensive firewall"
 
 | Approach | Statement | Impact |
 | :--- | :--- | :--- |
-| **The Old Way** | "Let's jump on a call to figure this out." | High cost, low prep, vague outcome. |
-| **The FAST Way** | "Read this proposal, then we meet for 15 minutes to vote Yes/No." | High prep, low cost, immediate execution. |
+| **The Old Way** | *"Let's jump on a call to figure this out."* | High cost, low prep, vague outcome. |
+| **The FAST Way** | *"Read this proposal, then we meet for 15 minutes to vote Yes/No."* | High prep, low cost, immediate execution. |
 
 ### vs. The Alternatives
 
@@ -93,13 +93,13 @@ The FAST Method is tool-agnostic. It applies to any calendar or communication pl
 
 ### Example 1: Software (Architecture Decision)
 
-**Context:** The team needs to decide whether to migrate the legacy Postgres database to a managed solution (RDS) or upgrade the self-hosted instance.
+**Context:** The team needs to decide whether to migrate the legacy Postgres database to a managed solution or upgrade the self-hosted instance.
 
 **The Invite Description:**
 
 | Attribute | Requirement |
 | :--- | :--- |
-| **Goal** | Decide: Migrate to RDS (Yes/No). |
+| **Goal** | Decide: Migrate to Relational Database Service (RDS) (Yes/No). |
 | **Cost** | 450 (15min * 6 Engineers @ 300/hr blended) |
 | **Pre-read** | Request for Comments (RFC)-102: Database Migration Strategy (12 mins read) |
 | **Output** | Approved Migration Plan or Rejection with comments in RFC-102. |
@@ -144,6 +144,11 @@ The FAST Method is tool-agnostic. It applies to any calendar or communication pl
 
 *   **"This information is required by many, and I don't know whom."**
     *   Then post it physically or digitally in a public channel. A meeting is the most expensive way to broadcast information.
+
+*   **"We use our morning standup for team bonding. Should we cancel it?"**
+    *   **Yes, if it is mixed.** FAST forbids "mixed-mode" meetings. When you mix operations with socializing, you do both poorly. Often, these meetings devolve into status reporting to the manager while others zone out until it's their turn.
+    *   **Operations:** Move status updates to async text. They are data.
+    *   **Culture:** Schedule a dedicated "Team Coffee" or "Social Sync" where the *explicit goal* is connection, not work. Disentangle culture from status reporting.
 
 ## Abbreviations
 
