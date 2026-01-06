@@ -150,6 +150,11 @@ The FAST Method is tool-agnostic. It applies to any calendar or communication pl
     *   **Operations:** Move status updates to async text. They are data.
     *   **Culture:** Schedule a dedicated "Team Coffee" or "Social Sync" where the *explicit goal* is connection, not work. Disentangle culture from status reporting.
 
+*   **"A remote team member joins meetings they don't need to be in, just to connect. Should I allow it?"**
+    *   **No.** This violates the **Filter** attribute. If they are not essential (Contributor or Decider), their attendance increases the **Cost** of the meeting without adding value.
+    *   **Silence the Noise:** Non-essential attendees often speak just to justify their presence ("Signaling"), which derails the agenda.
+    *   **Separate Social from Signal:** Remote workers often use meetings as a proxy for social interaction. Solve the isolation problem by scheduling dedicated social time (e.g., "Virtual Coffees"), prohibiting mixed-mode meetings where operations and socializing compete.
+
 ## Abbreviations
 
 | Abbreviation | Definition |
