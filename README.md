@@ -155,6 +155,17 @@ The FAST Method is tool-agnostic. It applies to any calendar or communication pl
     *   **Silence the Noise:** Non-essential attendees often speak just to justify their presence ("Signaling"), which derails the agenda.
     *   **Separate Social from Signal:** Remote workers often use meetings as a proxy for social interaction. Solve the isolation problem by scheduling dedicated social time (e.g., "Virtual Coffees"), prohibiting mixed-mode meetings where operations and socializing compete.
 
+*   **"What about quarterly reviews or vendor follow-ups?"**
+    *   **Data is a Pre-read:** Deliveries, metrics, and past performance are data. Send them as a report 48 hours in advance. Do not present them.
+    *   **Meeting is for Strategy:** The quarterly session is exclusively for *changing* the plan based on that data. If the review shows everything is perfect and no changes are needed, **cancel the meeting**.
+    *   **Focus on the Delta:** Discuss only the improvements, the new contract terms, or the strategy shift. The "Review" is the homework; the "Meeting" is the negotiation.
+    *   **Relationship vs. Review:** Relationships are built on trust; Reviews are built on data. If the goal is to maintain the relationship, schedule a distinct "Partnership Catch-up" (e.g., lunch). Do not disguise a social check-in as a "Quarterly Business Review." Mixing them dilutes the data and makes the social interaction transactional.
+
+*   **"A colleague needs me last-minute because they lack the answers. Should I join?"**
+    *   **Equip, Don't Attend:** If you join to "save" them, you become a permanent dependency.
+    *   **The FAST Solution:** Ask them to send you the specific questions. Write the answers for *them* to say. This builds their competency and protects your focus.
+    *   **Reject the Urgent:** Lack of preparation on their part does not constitute an emergency on yours.
+
 ## Abbreviations
 
 | Abbreviation | Definition |
